@@ -342,10 +342,11 @@ padding: 50px 0px;
   text-align: center;
 }
 .sociaux .facebook a ,.sociaux .insta a, .sociaux .email a{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
   text-align: center;
+  background-repeat: no-repeat;
 }
 .sociaux .facebook a {
   background-image: url("../img/facebook.png");
