@@ -16,7 +16,7 @@ html,body{
 }
 .header img{
   width: 100%;
-  height: 600px;
+  height: 500px;
   position: relative;
   top: 0;
   /*background-image: url();*/
@@ -124,7 +124,7 @@ html,body{
   font-size: 1.4em;
 }
 .about-me{
- padding: 50px 70px;
+ padding: 0px 70px;
  overflow: auto;
 }
 .about-me-intero{
@@ -140,9 +140,17 @@ padding: 110px 200px 50px 200px;
  text-align: center;
  font-family: sans-serif;
  color: #95a5a6;
- padding: 0px 140px;
+ padding: 0px 40px;
  line-height: 25px;
+ font-size: 15px;
 }
+.about-me .about-me-intero h3{
+  text-align: center;
+  font-family: sans-serif;
+  color: #95a5a6;
+  padding: 0px 140px;
+  line-height: 25px;
+ }
 .about-me-block{
   overflow: auto;
   padding: 10px 0px 0px 0px;
@@ -150,10 +158,14 @@ padding: 110px 200px 50px 200px;
 .item{
   padding: 0px;
 }
+
 .about-me-block .item img{
   margin: auto;
   display: block;
+  width: 50%;
+  height: 10%;
 }
+
 .about-me-block .item h3{
   color: #858873;
   text-align: center;
@@ -182,12 +194,14 @@ padding: 50px 0px;
 .work-item > img{
   display: block;
   margin: auto;
+  width: 400px;
+  height: 400px;
 }
 .more-details {
   display: none;
   position: absolute;
   width: 400px;
-  height: 300px;
+  height: 400px;
   top: 0;
   right: 138px;
   cursor: pointer;
