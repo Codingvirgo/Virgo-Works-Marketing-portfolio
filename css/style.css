@@ -350,10 +350,10 @@ padding: 50px 0px;
 .sociaux .facebook a {
   background-image: url("../img/facebook.png");
 }
-.sociaux .dribbble a {
+.sociaux .insta a {
   background-image: url("../img/insta.png");
 }
-.sociaux .twitter a {
+.sociaux .email a {
   background-image: url("../img/email.png");
 }
 .copyright{
