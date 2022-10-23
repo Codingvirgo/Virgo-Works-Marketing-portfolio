@@ -329,21 +329,21 @@ padding: 50px 0px;
 }
 .footer{
   background-color: #858873;
-  height: 100px;
+  height: 200px;
   width: 100%;
 }
 .sociaux{
   overflow: auto;
   padding: 0 204px;
-  margin-top: -51px;
+  margin-top: 0px;
 }
 .sociaux .facebook,.sociaux .insta,.sociaux .email{
   display: inline-block;
   text-align: center;
 }
 .sociaux .facebook a ,.sociaux .insta a, .sociaux .email a{
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
   text-align: center;
 }
@@ -359,7 +359,7 @@ padding: 50px 0px;
 .copyright{
   position: absolute;
   margin: 130px 0px 0px 50px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: arial;
   font-family: arial;
 
@@ -368,7 +368,7 @@ padding: 50px 0px;
   font-size: 1.2em;
 }
 .copyright a{
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   text-decoration: none;
 }
@@ -489,7 +489,7 @@ background-color:  rgba(0, 0, 0, 0) !important;
   padding: 0;
   right: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   margin: 0px auto;
   position: absolute;
 }
