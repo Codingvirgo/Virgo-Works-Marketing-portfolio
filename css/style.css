@@ -70,36 +70,25 @@ html,body{
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .header .header-content{
   position: absolute;
   width: 100%;
-  top: 92px;
+  top: 10%;
   right: 0;
   left: 0;
   margin: auto;
 }
-.header .header-content h1,.header .header-content h3{
+.header .header-content h3{
   text-align: center;
   color: #fff;
   font-family: 'arial',serif;
 }
-.header .header-content h1{
-  font-size: 4em;
-  font-family: 'Rokkitt', serif;
-  word-spacing: 8px;
-}
+
 .header .header-content h3{
   font-size: 2em;
-  margin-top: 30px;
+  margin-top: 10em;
   font-family: 'Quicksand', serif;
-}
-.header .header-content h1::after{
-  content: " ";
-  position: absolute;
-  border: 1px solid;
-  width: 100%;
-  top: 95px;
-  right: 0;
 }
 
 .goahead{
@@ -123,20 +112,28 @@ html,body{
   font-family: 'Rokkitt',serif;
   font-size: 1.4em;
 }
+.owner-portrait img{
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  border-radius: 100% 0% 100% 100% / 100% 0% 100% 0% ;
+  padding-top: 60px;
+}
 .about-me{
- padding: 0px 70px;
+ padding: 0px 10px;
  overflow: auto;
 }
 .about-me-intero{
-padding: 110px 200px 50px 200px;
+padding: 50px 200px 50px 200px;
 }
 .about-me .about-me-intero h1{
   color: #858873;
   text-align: center;
   font-weight: bold;
-  padding-bottom: 50px ;
+  padding-bottom: 30px ;
 }
-.about-me .about-me-intero p{
+.about-me .about-me-intero h2{
  text-align: center;
  font-family: sans-serif;
  color: #95a5a6;
@@ -438,6 +435,12 @@ background-color:  rgba(0, 0, 0, 0) !important;
   }
 .header .responsive .icon{
   background-color:  rgba(26, 188, 156, 0.39) !important;
+}
+.header-content h3 {
+display: none;
+}
+.owner-portrait img {
+  max-width: 200px;
 }
 .about-me{
   padding: 60px 15px 10px 15px ;
