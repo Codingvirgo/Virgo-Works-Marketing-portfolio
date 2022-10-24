@@ -338,7 +338,7 @@ padding: 50px 0px;
 .sociaux{
   overflow: auto;
   padding: 0 204px;
-  margin: 4em 2em 0em 10em;
+  margin: -1px;
 }
 .sociaux .facebook,.sociaux .insta,.sociaux .email{
   display: inline-block;
@@ -395,7 +395,7 @@ padding: 50px 0px;
 
 /* media query*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 .header .logo {
   padding: 25px;
 }
@@ -499,9 +499,10 @@ display: none;
   padding: 0;
   right: 0;
   left: 0;
-  width: 90%;
-  margin: 3em 3em 0em 6em;
+  width: 100%;
+  margin: 0 1em;
   position: absolute;
+  display: inline-block;
 }
 .copyright{
   right: 0;
