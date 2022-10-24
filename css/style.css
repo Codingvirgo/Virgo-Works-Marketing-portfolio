@@ -337,8 +337,8 @@ padding: 50px 0px;
 }
 .sociaux{
   overflow: auto;
-  padding: 0 204px;
-  margin-top: 0px;
+  padding: 0 20px;
+  margin-top: 40px;
 }
 .sociaux .facebook,.sociaux .insta,.sociaux .email{
   display: inline-block;
@@ -362,14 +362,13 @@ padding: 50px 0px;
 }
 .copyright{
   position: absolute;
-  margin: 130px 0px 0px 50px;
+  margin: 120px 0px 0px 50px;
   color: rgb(0, 0, 0);
   font-size: arial;
   font-family: arial;
-
 }
 .copyright h5{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .copyright a{
   color: rgb(0, 0, 0);
