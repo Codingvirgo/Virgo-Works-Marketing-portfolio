@@ -337,8 +337,8 @@ padding: 50px 0px;
 }
 .sociaux{
   overflow: auto;
-  padding: 0 20px;
-  margin-top: 40px;
+  padding: 0 10em;
+  margin: 4em 2em 0em 10em;
 }
 .sociaux .facebook,.sociaux .insta,.sociaux .email{
   display: inline-block;
@@ -350,6 +350,7 @@ padding: 50px 0px;
   display: inline-block;
   text-align: center;
   background-repeat: no-repeat;
+  background-position: center
 }
 .sociaux .facebook a {
   background-image: url("../img/facebook.png");
@@ -362,7 +363,7 @@ padding: 50px 0px;
 }
 .copyright{
   position: absolute;
-  margin: 120px 0px 0px 50px;
+  margin:10em 2em 0em 41em;
   color: rgb(0, 0, 0);
   font-size: arial;
   font-family: arial;
@@ -498,11 +499,9 @@ display: none;
   padding: 0;
   right: 0;
   left: 0;
-  width: 100%;
-  margin: 0px auto;
+  width: 90%;
+  margin: 3em 3em 0em 6em;
   position: absolute;
-  text-align: center;
-
 }
 .copyright{
   right: 0;
