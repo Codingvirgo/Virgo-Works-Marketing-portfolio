@@ -11,6 +11,8 @@
 html,body{
   height: 100%;
 }
+/*    header    */
+
 .header{
  width: 100%;
 }
@@ -91,6 +93,8 @@ html,body{
   font-family: 'Quicksand', serif;
 }
 
+/* go ahead button */
+
 .goahead{
   position: absolute;
   width: 200px;
@@ -112,6 +116,9 @@ html,body{
   font-family: 'Rokkitt',serif;
   font-size: 1.4em;
 }
+
+/* home portrait */
+
 .owner-portrait img{
   display: block;
   margin: auto;
@@ -120,6 +127,9 @@ html,body{
   border-radius: 100% 0% 100% 100% / 100% 0% 100% 0% ;
   padding-top: 60px;
 }
+
+/* home about me */
+
 .about-me{
  padding: 0px 10px;
  overflow: auto;
@@ -175,12 +185,63 @@ padding: 50px 200px 50px 200px;
   word-spacing: 0px;
   text-align: justify;
 }
+
+/* about me - about me */
+ .about-me-page {
+  padding: 0px 10px;
+  overflow: auto;
+ }
+ .about-me-page{
+ padding: 50px 200px 50px 200px;
+ }
+ .about-me-page .about-me-page-intro h1{
+   color: #858873;
+   text-align: center;
+   font-weight: bold;
+   padding-bottom: 30px ;
+   margin-top: -50px;
+ }
+ .about-me-page .about-me-page-intro h2{
+  text-align: center;
+  font-family: sans-serif;
+  color: #95a5a6;
+  padding: 0px 20px;
+  line-height: 25px;
+  font-size: 15px;
+ }
+ .about-me-page .about-me-page-intro h3{
+   text-align: center;
+   font-family: sans-serif;
+   color: #95a5a6;
+   padding: 0px 40px;
+   line-height: 25px;
+  }
+
+  .about-me-owner-portrait img{
+    display: block;
+    margin: auto;
+    width: 420px;
+    height: auto;
+    border-radius: 100% 0% 100% 100% / 100% 0% 100% 0% ;
+    padding: 0px 0px 0px 10px ;
+  }
+  .portrait{
+    transform: translate(50%, 20%);
+  }
+  .portrait2{
+    transform: translate(-50%,-30%);
+  }
+  
+/*  home portfolio gallery */
+
+
 .separate{
   border: 1px solid #e4e8e8;
   position: relative;
   margin: 0px 140px;
   overflow: auto;
 }
+
 .work{
 padding: 50px 0px;
 }
@@ -262,6 +323,9 @@ padding: 50px 0px;
  text-decoration: none;
  letter-spacing: 2px;
 }
+
+/* contact us*/
+
 .contact-us{
   padding: 50px 0 200px 0;
   width: 100%;
@@ -330,6 +394,9 @@ padding: 50px 0px;
   letter-spacing: 2px;
   border: 0;
 }
+
+/* footer */
+
 .footer{
   background-color: #858873;
   height: 200px;
@@ -376,6 +443,9 @@ padding: 50px 0px;
   font-weight: bold;
   text-decoration: none;
 }
+
+/* go to top button */
+
 .goTop{
   display: none;
   width: 43px;
