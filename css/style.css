@@ -433,7 +433,7 @@ padding: 50px 0px;
   display: inline-block;
   text-align: center;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 .sociaux .facebook a {
   background-image: url("../img/facebook.png");
@@ -605,6 +605,7 @@ display: none;
       margin: 127px auto;
       text-align: center;
       position: absolute;
+      display:none;
 }
 
 }
