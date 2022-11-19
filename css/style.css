@@ -10,6 +10,7 @@
 }
 html,body{
   height: 100%;
+  background-color: #faf8e1;  
 }
 /*    header    */
 
@@ -79,7 +80,9 @@ html,body{
   top: 10%;
   right: 0;
   left: 0;
+  z-index: 1;
   margin: auto;
+  float: st;
 }
 .header .header-content h3{
   text-align: center;
@@ -103,7 +106,7 @@ html,body{
   right: 0px;
   left: 0px;
   margin: -27px auto;
-  z-index: 4;
+  z-index: 0;
   background-color: #a4a988;
   outline: 6px solid #858873;
 }
@@ -146,7 +149,7 @@ padding: 50px 200px 50px 200px;
 .about-me .about-me-intero h2{
  text-align: center;
  font-family: sans-serif;
- color: #95a5a6;
+ color: #000000;
  padding: 0px 40px;
  line-height: 25px;
  font-size: 15px;
@@ -154,7 +157,7 @@ padding: 50px 200px 50px 200px;
 .about-me .about-me-intero h3{
   text-align: center;
   font-family: sans-serif;
-  color: #95a5a6;
+  color: #858873;
   padding: 0px 40px;
   line-height: 25px;
  }
@@ -180,7 +183,7 @@ padding: 50px 200px 50px 200px;
 .about-me-block .item p{
   padding: 10px 65px 40px 65px;
   text-align: left;
-  color: #95a5a6;
+  color: #000000;
   line-height: 25px;
   word-spacing: 0px;
   text-align: justify;
@@ -363,7 +366,7 @@ padding: 50px 0px;
   width: 350px;
   height: 50px;
   margin: 10px ;
-  background-color: #e4e8e8;
+  background-color: #D7DAC1;
   outline: none;
   border: 0;
   font-size: 2em;
@@ -373,27 +376,27 @@ padding: 50px 0px;
 
 }
 .contact-us input::-webkit-input-placeholder, .contact-us textarea::-webkit-input-placeholder {
-  color: #cecece;
+  color: #ffffff;
 
 }
 .contact-us p{
   text-align: center;
   font-family: sans-serif;
-  color: #95a5a6;
-  padding: 0px 0px 20px 0px;
+  color: #a4a988;
+  padding: 0px 10px 20px 1px;
   line-height: 25px;
 }
 .contact-us form textarea{
  margin: 10px;
  width: 725px;
  height: 250px;
- background-color: #e4e8e8;
+ background-color: #D7DAC1;
  outline: none;
  border: 0;
  resize: none;
  font-size: 2em;
  padding: 5px 25px;
- color: #AAA;
+ color: #ffffff;
 }
 .contact-us button{
   text-align: center;
@@ -518,7 +521,7 @@ background-color:  rgba(0, 0, 0, 0) !important;
   text-align: left;
   }
 .header .responsive .icon{
-  background-color:  rgba(26, 188, 156, 0.39) !important;
+  background-color:  #a4a988 !important;
 }
 .header-content h3 {
 display: none;
@@ -560,7 +563,7 @@ display: none;
   width: 80%;
   right: 0;
   left: 0;
-  top: -22px;
+  bottom: -6em;
   margin: auto;
 }
 .more-details > img {
